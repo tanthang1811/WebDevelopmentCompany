@@ -146,20 +146,19 @@ a{
 .service-item{
     text-align: center;
     color: #F6FFFE;
-    margin-top: 1.2em;
-    margin-bottom: 1.2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    transition: all 1s ease-out 0s;
 }
 
-.service-icon{
-    transform: rotate(45deg);
-    
+.service-item:last-child{
+    margin-bottom: 0em;
+    padding-bottom: 2em;
 }
+
 
 .service-icon i{
-    height: 3em;
-    width: 3em;
-    font-size: 2em;
-    border: 2px solid #F6FFFE;
+    font-size: 3em;
 }
 
 
@@ -171,4 +170,13 @@ a{
 .service-desc{
     font-size: 1.5em;
     line-height: 1.8em;
+}
+
+.service-item:hover{
+    background-color: #58A5FF;
+}
+
+footer{
+    width: 100%;
+    background-color: #403C29;
 }
