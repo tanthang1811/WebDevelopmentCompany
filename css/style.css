@@ -110,8 +110,7 @@ a{
 }
 
 .company-tour{
-    width: 100%;
-    margin: 2em;
+    display: none;
 }
 
 .our-services-header{
@@ -178,5 +177,63 @@ a{
 
 footer{
     width: 100%;
-    background-color: #403C29;
+    background-color: #000;
+    height: 10em;
+}
+
+footer ul{
+    padding-top: 2em;
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    padding: 0em;
+}
+
+footer ul li a i{
+    font-size: 2em;
+    padding: 1em;
+    border-radius: 50%;
+    transition: all 1s linear 0s;
+}
+
+.sm-link:first-child a i{
+    color: blue;
+}
+
+.sm-link:nth-child(2) a i{
+    color: aqua;
+}
+
+.sm-link:nth-child(3) a i{
+    color: red;
+}
+
+.sm-link:last-child a i{
+    color: pink;
+}
+
+.sm-link:first-child a i:hover{
+    background-color: blue;
+    color: #FFF;
+    transform: rotate(360deg);
+}
+
+.sm-link:nth-child(2) a i:hover{
+    background-color: aqua;
+    color: #FFF;
+    transform: rotate(360deg);
+}
+
+.sm-link:nth-child(3) a i:hover{
+    background-color: red;
+    color: #FFF;
+    transform: rotate(360deg);
+}
+
+.sm-link:last-child a i:hover{
+    background-color: pink;
+    color: #FFF;
+    transform: rotate(360deg);
 }
