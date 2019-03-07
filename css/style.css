@@ -290,10 +290,6 @@ footer ul li a i{
     color: #FFF;
 }
 
-.contact-info{
-
-}
-
 .contact-item{
     text-align: center;
     height: 10em;
@@ -335,3 +331,33 @@ footer ul li a i{
     background: #BFBAA1;
 }
 
+.about-us-header{
+    text-align: center;
+}
+
+.about-us-header h2{
+    text-transform: uppercase;
+    position: relative;
+    color: #113840;
+    padding-top: 1.5em;
+}
+
+.about-us-header h2::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background-color: #113840;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+#about-us{
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.about-content p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
