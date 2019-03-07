@@ -280,11 +280,58 @@ footer ul li a i{
     font-weight: bold;
 }
 
+.input-form:nth-child(4){
+    height: 10em;
+    resize: none;
+}
+
 .input-form:last-child{
     background-color: #175B7F;
     color: #FFF;
 }
 
 .contact-info{
-    
+
 }
+
+.contact-item{
+    text-align: center;
+    height: 10em;
+    width: 80%;
+    margin: 0.5em auto;
+    background: #175B7F;
+    position: relative;
+}
+
+.contact-item i{
+    font-size: 3em;
+    color: #FFF;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s linear 0s;
+}
+
+.contact-item p{
+    font-size: 1.5em;
+    color: #FFF;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s linear 0s;
+}
+
+.contact-item:hover i{
+    color: #175B7F;
+}
+
+.contact-item:hover p{
+    color: #175B7F;
+}
+
+.contact-item:hover{
+    background: #BFBAA1;
+}
+
