@@ -237,3 +237,54 @@ footer ul li a i{
     color: #FFF;
     transform: rotate(360deg);
 }
+
+.contact-us-header {
+    text-align: center;
+}
+
+.contact-us-header h2{
+    text-transform: uppercase;
+    position: relative;
+    color: #113840;
+    padding-top: 1.5em;
+}
+
+.contact-us-header h2::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background-color: #113840;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+#contact-us{
+    margin-top: 1em;
+}
+
+.contact-form{
+    padding: 1em;
+    padding-left: 0.5em;
+    text-align: center;
+}
+
+.input-form{
+    display: block;
+    padding: 1em;
+    margin: 0.5em;
+    width: 100%;
+    border-radius: 2em;
+    border: 2px solid #BFB4A5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.input-form:last-child{
+    background-color: #175B7F;
+    color: #FFF;
+}
+
+.contact-info{
+    
+}
