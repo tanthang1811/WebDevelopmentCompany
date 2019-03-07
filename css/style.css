@@ -361,3 +361,297 @@ footer ul li a i{
     font-size: 1.2em;
     line-height: 1.5em;
 }
+
+.our-team-header{
+    text-align: center;
+}
+
+.our-team-header h2{
+    text-transform: uppercase;
+    position: relative;
+    color: #113840;
+    padding-top: 1.5em;
+}
+
+.our-team-header h2::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background-color: #113840;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+.ourteam-item{
+    width: 80%;
+    margin: 3em auto;
+    text-align: center;
+}
+
+.ourteam-item img{
+    width: 80%;
+    filter: grayscale(1);
+    transition: all 1s linear 0s;
+}
+
+.ourteam-item h3{
+    font-size: 2em;
+}
+
+.ourteam-item p{
+    font-size: 1.5em;
+}
+
+.ourteam-item img:hover{
+    filter: grayscale(0);
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #com-logo{
+        max-width: 20%;
+    }
+    
+    .hero-container h2 {
+        font-size: 4em;
+    }
+    
+    .hero-container h1 {
+        font-size: 3em;
+    }
+    
+    .little-about-us-header h2{
+        font-size: 2em;
+    }
+    
+    .little-about-us-header h2::after{
+        height: 5px;       
+    }
+    
+    
+    .little-about-content p{
+        font-size: 2em;
+        line-height: 1.8em;
+    }
+
+    .our-services-header h2{
+        font-size: 2em;
+    }
+    
+    .our-services-header h2::after{
+        height: 5px;        
+    }
+    
+    .service-icon i{
+        font-size: 4em;
+    }
+    
+    
+    
+    .service-header{
+        font-size: 3em;
+    }
+    
+    .service-desc{
+        font-size: 2em;
+        line-height: 1.8em;
+    }
+    
+    footer ul li a i{
+        font-size: 3em;
+        margin-left: 1em;
+        padding: 1em;
+    }
+    
+    .contact-us-header h2{
+        font-size: 2em;
+    }
+    
+    .contact-us-header h2::after{
+
+        height: 5px;
+        
+    }
+    
+    
+    .contact-form{
+        padding: 1em;
+        padding-left: 0.5em;
+        text-align: center;
+    }
+    
+    .input-form{
+        font-size: 1.5em; 
+    }
+    
+    .input-form:last-child{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact-item{
+        text-align: center;
+        height: 10em;
+        width: 80%;
+        margin: 0.5em auto;
+        background: #175B7F;
+        position: relative;
+    }
+    
+    .contact-item i{
+        font-size: 4em;
+    }
+    
+    .contact-item p{
+        font-size: 1.7em;
+    }
+    
+    .about-us-header h2{
+        font-size: 2em;
+    }
+    
+    .about-us-header h2::after{
+        height: 5px;
+    }
+    
+    .about-content p{
+        font-size: 2em;
+    }
+    
+    .our-team-header h2{
+        font-size: 2em;
+    }
+    
+    .our-team-header h2::after{
+        height: 5px;
+    }
+    
+    .ourteam-item{
+        
+        margin: 5em auto;
+        
+    }
+    
+    .ourteam-item img{
+        width: 60%;
+    }
+    
+    .ourteam-item h3{
+        font-size: 3em;
+    }
+    
+    .ourteam-item p{
+        font-size: 2em;
+    }
+    
+    .ourteam-item img:hover{
+        filter: grayscale(0);
+    }
+  }
+
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1000px) {
+    #com-logo{
+        max-width: 10%;
+    }
+    
+    .hero-container h2 {
+        font-size: 5em;
+    }
+    
+    .hero-container h1 {
+        font-size: 3.5em;
+    }
+
+    #our-services{
+        overflow: hidden;
+    }
+
+    .service-item{
+        width: 33.33%;
+        float: left;
+        height: 20em;
+    }
+    
+    .service-icon i{
+        font-size: 2em;
+    }
+    
+    .service-header{
+        font-size: 2em;
+    }
+    
+    .service-desc{
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    
+    footer ul li a i{
+        margin-left: 5em;
+    }
+
+    #contact-us{
+        
+        overflow: hidden;
+    }
+
+    .contact-form{
+        width: 50%;
+        float: left;
+    }
+
+    .contact-info{
+        width: 50%;
+        float: left;
+    }
+    
+    .contact-item p{
+        font-size: 1.7em;
+        top: 70%;
+    }
+    
+    .about-content p{
+        font-size: 2em;
+    }
+
+    #ourteam-section{
+        overflow: hidden;
+    }
+    
+    .ourteam-item{
+        float: left;
+        
+    }
+    
+    .ourteam-item img{
+        float: left;
+        margin: 5em;
+        width: 25%;
+    }
+    
+    .ourteam-item h3{
+        margin-top: 3em;
+        font-size: 3em;
+    }
+    
+    .ourteam-item p{
+        
+        font-size: 2em;
+    }
+    
+    .ourteam-item img:hover{
+        filter: grayscale(0);
+    }
+    
+  }
